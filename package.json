@@ -1,0 +1,16 @@
+{
+    "name": "family-tree-app",
+    "version": "1.0.0",
+    "description": "Family Tree Application with Flask and Graphviz",
+    "private": true,
+    "scripts": {
+      "build": "pip install -r requirements.txt && apt-get update && apt-get install -y graphviz",
+      "start": "python api/index.py"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "dependencies": {
+      "@vercel/python": "^3.0.0"
+    }
+  }
